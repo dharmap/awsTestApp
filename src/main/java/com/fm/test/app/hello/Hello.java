@@ -10,7 +10,7 @@ public class Hello {
 	
 	@RequestMapping(value="/hello/{name}", method=RequestMethod.GET)
 	public String hello(@PathVariable String name){
-		return "Hello " + name + " badcow..!";
+		return "Hello " + name + "!";
 	}
 	
 	@RequestMapping(value="/helloInJson/{name}", method=RequestMethod.GET)
